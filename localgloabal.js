@@ -10,3 +10,9 @@ function localScopeDemo(){
 }
 const myFunc=localScopeDemo();
 myFunc();
+
+(function(a,b){
+    let sum=a+b;
+    console.log(sum);
+})(5,10)
+
